@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "emitDeclarationOnly": true
+  },
+  "exclude": ["**/*.stories.tsx", "script/**/*.ts", "src/__tests__/", "src/utils/test-*.tsx", "src/utils/testing.tsx"]
+}
