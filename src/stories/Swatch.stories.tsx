@@ -111,7 +111,7 @@ export const colorScale: Story<SwatchProps> = args => {
     <>
       {' '}
       <Text as="h2" sx={{color: 'text.default'}}>
-        {args.colorScheme}
+        {args.colorScheme} (press &quot;d&quot; for controls; also, open dev console and observe `colors` object)
       </Text>
     </>
   )
